@@ -1,5 +1,5 @@
 # Analyzing Indicators of Compromise with VirusTotal and the Pyramid of Pain
-*Google Cybersecurity Certificate – Course 06: Sound the Alarm: Detection and Response*
+*Google Cybersecurity Certificate – Course 05: Sound the Alarm: Detection and Response*
 *(Portfolio Activity – Investigate a Suspicious File Hash)*
 
 ---
