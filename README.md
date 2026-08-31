@@ -9,15 +9,15 @@ Each activity demonstrates my ability to utilise industry-standard tools, apply 
 
 ## 📂 Portfolio Content by Course
 
-### **1️⃣ Play It Safe: Manage Security Risks**
+### **1️⃣ [Play It Safe: Manage Security Risks](https://github.com/JCVadillo/google-cybersecurity-cert-portfolio/tree/main/01_Manage-Security-Risks)**
 - **Portfolio Activity:** *Conduct a security audit*  
   Performing a security audit to assess policies, controls, and compliance.
 
-### **2️⃣ Connect and Protect: Networks and Network Security**
+### **2️⃣ [Connect and Protect: Networks and Network Security](https://github.com/JCVadillo/google-cybersecurity-cert-portfolio/tree/main/02_Network-and-Network-Security)**
 - **Portfolio Activity:** *Use the NIST Cybersecurity Framework (CSF) to respond to a security incident*  
   Applying the NIST CSF to document the response process for a simulated incident.
 
-### **3️⃣ Tools of the Trade: Linux and SQL**
+### **3️⃣ [Tools of the Trade: Linux and SQL](https://github.com/JCVadillo/google-cybersecurity-cert-portfolio/tree/main/03_Linux-and-SQL)**
 - **Portfolio Activity:** *Install and manage software in Linux using APT*  
   Practiced installing, verifying, removing, and reinstalling packages like **Suricata** and **tcpdump** using the Linux terminal. Documented the workflow with Markdown, Git, and Linux terminal.
 
@@ -36,7 +36,7 @@ Each activity demonstrates my ability to utilise industry-standard tools, apply 
 - **Portfolio Activity:** *Apply filters to SQL queries*  
   Filtered login attempts and employee records using **WHERE**, **AND**, **OR**, **NOT**, and **LIKE** to investigate incidents and plan system updates.
 
-### **4️⃣ Assets, Threats, and Vulnerabilities**
+### **4️⃣ [Assets, Threats, and Vulnerabilities](https://github.com/JCVadillo/google-cybersecurity-cert-portfolio/tree/main/04_Assets-Threats-and-Vulneravilities)**
 - **Portfolio Activity:** *Score risk based on likelihood and severity*
   Conducted a comprehensive risk assessment for a commercial bank, assigning likelihood and severity values to multiple risks, calculating overall risk scores, and providing detailed notes and justifications based on the NIST Cybersecurity Framework.
 
@@ -52,7 +52,7 @@ Each activity demonstrates my ability to utilise industry-standard tools, apply 
 - **Portfolio Activity:** *Apply the PASTA threat model framework*  
   Conducted an end-to-end threat modeling exercise for a mobile e-commerce application using the **PASTA** framework, identifying business-critical assets, attack vectors, threats, and vulnerabilities. Evaluated application architecture and data flows, analyzed attack trees, and proposed security controls including SQL injection prevention, MFA, patch management, and regulatory compliance measures.
 
-### **5️⃣ Sound the Alarm: Detection and Response**
+### **5️⃣ [Sound the Alarm: Detection and Response](https://github.com/JCVadillo/google-cybersecurity-cert-portfolio/tree/main/05_Sound-the-Alarm-Detection-and-Response)**
 
 - **Portfolio Activity:** *Document an incident with an Incident Handler's Journal*
   Documented a ransomware attack on a U.S. healthcare clinic using a structured **Incident Handler's Journal**, applying the **5 W's framework** to capture threat actor identity, attack vector, timing, scope, and motive. Analyzed the phishing-to-ransomware attack chain and critically evaluated incident response decisions, including the ethical and legal implications of ransom payment in a regulated sector.
