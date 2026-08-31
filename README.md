@@ -52,9 +52,25 @@ Each activity demonstrates my ability to utilise industry-standard tools, apply 
 - **Portfolio Activity:** *Apply the PASTA threat model framework*  
   Conducted an end-to-end threat modeling exercise for a mobile e-commerce application using the **PASTA** framework, identifying business-critical assets, attack vectors, threats, and vulnerabilities. Evaluated application architecture and data flows, analyzed attack trees, and proposed security controls including SQL injection prevention, MFA, patch management, and regulatory compliance measures.
 
-### **5️⃣ Sound the Alarm: Detection and Response** - *In progress*
-- **Portfolio Activity:** *Use SIEM tools to detect suspicious activity*  
-  Using Splunk (SIEM) to create queries, analyse security events, and detect threats.
+### **5️⃣ Sound the Alarm: Detection and Response**
+
+- **Portfolio Activity:** *Document an incident with an Incident Handler's Journal*
+  Documented a ransomware attack on a U.S. healthcare clinic using a structured **Incident Handler's Journal**, applying the **5 W's framework** to capture threat actor identity, attack vector, timing, scope, and motive. Analyzed the phishing-to-ransomware attack chain and critically evaluated incident response decisions, including the ethical and legal implications of ransom payment in a regulated sector.
+
+- **Portfolio Activity:** *Investigate a suspicious file hash with VirusTotal and the Pyramid of Pain*
+  Analyzed a suspicious file artifact using **VirusTotal** to determine malicious verdict through multi-vendor detection and sandbox behavioral data. Mapped identified indicators of compromise — hashes, IP addresses, domains, network/host artifacts, and TTPs — across the **Pyramid of Pain** framework, and extracted **MITRE ATT&CK** tactics to strengthen detection rules and differentiate low-value from high-value indicators.
+
+- **Portfolio Activity:** *Document a threat intelligence investigation in an Incident Handler's Journal*
+  Combined threat intelligence analysis and structured incident documentation by investigating a suspicious file hash via **VirusTotal** and recording findings as a formal **Incident Handler's Journal** entry using the 5 W's. Mapped malicious behaviors across the **Pyramid of Pain** and aligned identified tactics with the **MITRE ATT&CK** framework to support the Detection and Analysis phase of the NIST Incident Response Lifecycle.
+
+- **Portfolio Activity:** *Deploy and configure Suricata IDS on a virtualized ARM64 environment*
+  Deployed **Suricata 8.0.6** as a network-based Intrusion Detection System on a dedicated Ubuntu 26.04 LTS VM running on **UTM (QEMU)** on a Mac M1, following the principle of least functionality with separate VMs per security tool. Configured the network interface, downloaded the **Emerging Threats Open** ruleset via `suricata-update`, authored a custom ICMP detection rule, and verified live alert generation through real-time CLI log analysis of `fast.log` and `eve.json`.
+
+- **Portfolio Activity:** *Examine alerts, logs, and rules with Suricata*
+  Analyzed the anatomy of a custom **Suricata rule**, ran Suricata in offline mode against a `.pcap` capture file, and examined generated alerts in `fast.log`. Parsed and filtered the structured `eve.json` event log using `jq` to extract timestamps, flow IDs, destination IPs, HTTP metadata, and alert signatures — reinforcing the distinction between IDS and IPS operational modes and the role of `flow_id` as a correlation key for network event reconstruction.
+
+- **Portfolio Activity:** *Deploy a Wazuh SIEM on Apple Silicon (ARM64)*
+  Adapted the official Wazuh lab guide — designed exclusively for x86_64 — to deploy a fully functional **Wazuh SIEM** (Indexer, Manager, and Dashboard) on an Apple Silicon M1 Mac using **UTM** with a native ARM64 Ubuntu Server VM. Configured a single-node installation, ingested **109,872 log events** via **Filebeat**, created an index pattern in Wazuh Discover, and troubleshot multiple real installation failures — including cluster initialization errors, silent service failures, and file permission issues.
 
 ### **6️⃣ Automate Cybersecurity Tasks with Python** - *In progress*
 - **Portfolio Activity:** *Automate tasks using Python*  
