@@ -73,8 +73,11 @@ Each activity demonstrates my ability to utilise industry-standard tools, apply 
   Adapted the official Wazuh lab guide — designed exclusively for x86_64 — to deploy a fully functional **Wazuh SIEM** (Indexer, Manager, and Dashboard) on an Apple Silicon M1 Mac using **UTM** with a native ARM64 Ubuntu Server VM. Configured a single-node installation, ingested **109,872 log events** via **Filebeat**, created an index pattern in Wazuh Discover, and troubleshot multiple real installation failures — including cluster initialization errors, silent service failures, and file permission issues.
 
 ### **6️⃣ Automate Cybersecurity Tasks with Python** - *In progress*
-- **Portfolio Activity:** *Automate tasks using Python*  
-  Writing Python scripts to automate basic security analysis tasks.
+- **Portfolio Activity:** *Create a Python algorithm to update an IP allow list*  
+  Developed a reusable **Python** function to read and parse a text file of allowed IP addresses, remove entries listed for access revocation, and rewrite the updated file. Used file handling, **split()**, **join()**, loops, and conditionals, then read the file again to verify the changes.
+
+- **Portfolio Activity:** *Debug Python code*  
+  Practiced identifying and resolving **syntax errors**, **exceptions**, and **logic errors** in Python code for user validation, IP allow list updates, and security patch scheduling. Corrected punctuation, indentation, variable names, method calls, and list indices, then reran the code to verify the expected results.
 
 ### **7️⃣ Put It to Work: Prepare for Cybersecurity Jobs** - *In progress*
 - **Portfolio Activity:** *Create a professional incident response report*  
