@@ -79,9 +79,9 @@ Each activity demonstrates my ability to utilise industry-standard tools, apply 
 - **Portfolio Activity:** *Debug Python code*  
   Practised identifying and resolving **syntax errors**, **exceptions**, and **logic errors** in Python code for user validation, IP allow list updates, and security patch scheduling. Corrected punctuation, indentation, variable names, method calls, and list indices, then reran the code to verify the expected results.
 
-### **7️⃣ Put It to Work: Prepare for Cybersecurity Jobs** - *In progress*
-- **Portfolio Activity:** *Create a professional incident response report*  
-  Compiling a comprehensive, professional incident response report integrating all prior skills.
+### **7️⃣ [Put It to Work: Prepare for Cybersecurity Jobs](https://github.com/JCVadillo/google-cybersecurity-cert-portfolio/tree/main/07_Put-It-to-Work-Prepare-for-Cybersecurity-Jobs)** - *In progress*
+- **Portfolio Activity:** *Analyze event logs with Gemini Notebook*  
+  Analysed system activity logs using Gemini Notebook - AI-Tools - to monitor authentication events, file access patterns, and automated system services. Identified critical security anomalies—including rapid **failed login attempts**, an unauthorized transfer of confidential financial data (**DLP violation**), and an **external admin login** from an unusual IP address—ranking threats by severity level to support SOC investigation and incident containment.
 
 ---
 
